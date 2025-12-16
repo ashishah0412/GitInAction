@@ -4,7 +4,9 @@ This document summarizes the core concepts of Git, helping developers move beyon
 
 ## 1. Git Fundamentals: The Database and the Commit
 
-Git is fundamentally a **database**, and the basic unit of this database is the **commit**.
+Git is fundamentally a **database**, and the basic unit of this database is the **commit**. 
+
+Git is a distributed, content-addressable object database where the fundamental unit of versioned history is the commit, and no single repository is inherently central.
 
 ### What is a Commit?
 A commit is a complete **snapshot** (a photograph) of your entire project at a specific moment in time. It records the entire state of every file, not just the changes you made.
