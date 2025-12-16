@@ -163,6 +163,11 @@ git log --graph
 ```
 Graphical history view.
 
+```bash
+git branch -vv
+```
+-vv (very verbose), Show all local branches, which commit they point to, and which remote branch (if any) they are tracking — plus whether they’re ahead or behind.
+
 ---
 
 # 7️⃣ git diff
