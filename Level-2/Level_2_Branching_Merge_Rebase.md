@@ -80,6 +80,12 @@ git checkout main -- file.txt
 ```
 Restores a file from main branch.
 
+In place of above command Git now recommends below command to restore "file.txt" from main branch as syntax wise its cleaner and safer.
+
+```bash
+git restore --source=main file.txt
+```
+
 ```bash
 git checkout HEAD~1
 ```
